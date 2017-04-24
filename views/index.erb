@@ -1,0 +1,12 @@
+<form method="post" action='trianglefinder'>
+  <label>Side 1</label>
+  <input type="number" name="triangle_sizes[]" value="0">
+  <label>Side 2</label>
+  <input type="number" name="triangle_sizes[]" value="0">
+  <label>Side 3</label>
+  <input type="number" name="triangle_sizes[]" value="0">
+  <button type="submit" name="button">Submit</button>
+</form>
+<p>
+  <%= @result %>
+</p>
